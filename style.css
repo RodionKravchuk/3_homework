@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.static {
+    /* Звичайний потік документа */
+    position: static;
+}
+
+.relative {
+    /* Відносно звичайної позиції */
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.absolute {
+    /* Відносно найближчого позиціонованого елемента */
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.fixed {
+    /* Фіксована позиція */
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.sticky {
+    /* Липка позиція */
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    color: white;
+}
